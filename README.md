@@ -78,9 +78,9 @@ matplotlib
 ```
 for data visualization (optional for plotting graphs).
 ### Testing
-Test cases are embedded within the scripts for retrieving weather data and verifying daily summaries.
-Test for various thresholds and weather conditions by adjusting the parameters in the script.
+- Test cases are embedded within the scripts for retrieving weather data and verifying daily summaries.
+- Test for various thresholds and weather conditions by adjusting the parameters in the script.
 ### Example Run:
-Retrieve weather data for a city.
-Trigger alerts if thresholds are breached (e.g., temperature > 35°C).
-Visualize temperature trends using matplotlib (optional).
+- Retrieve weather data for a city.
+- Trigger alerts if thresholds are breached (e.g., temperature > 35°C).
+- Visualize temperature trends using matplotlib (optional).
