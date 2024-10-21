@@ -66,3 +66,21 @@ The Real-Time Weather Monitoring System retrieves real-time weather data from th
  4. Run the applicationn:
     ```bash
     python weather_monitoring.py
+
+### Dependencies
+- Python 3.x
+- Libraries:
+  ```bash
+  requests
+ for API calls.
+```bash
+matplotlib
+```
+for data visualization (optional for plotting graphs).
+### Testing
+Test cases are embedded within the scripts for retrieving weather data and verifying daily summaries.
+Test for various thresholds and weather conditions by adjusting the parameters in the script.
+### Example Run:
+Retrieve weather data for a city.
+Trigger alerts if thresholds are breached (e.g., temperature > 35°C).
+Visualize temperature trends using matplotlib (optional).
