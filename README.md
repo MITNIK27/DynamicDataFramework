@@ -28,7 +28,7 @@ This application implements a 3-tier rule engine to evaluate user eligibility ba
 1. Clone the repository:
    ```bash
    git clone https://github.com/MITNIK27/DynamicDataFramework.git
-   cd DynamicDataFramework/Appl1.ipynb
+   cd DynamicDataFramework/App1.ipynb
 
 2. Install dependencies:
    ```bash
