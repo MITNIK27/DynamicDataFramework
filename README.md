@@ -30,45 +30,39 @@ This application implements a 3-tier rule engine to evaluate user eligibility ba
    git clone https://github.com/yourusername/zeotap-intern-assignment.git
    cd zeotap-intern-assignment/application1-rule-engine
 
----
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+3. Run the application:
+   ```bash
+   python rule_engine.py
 
-#### **3. Dependencies and Setup Instructions**
-In the **README.md**, make sure you:
-- List all dependencies (e.g., Python 3.x, libraries like `requests`, `re`, etc.).
-- Provide clear setup instructions, including how to install dependencies using `requirements.txt` or how to use Docker (if applicable).
-  - Example `requirements.txt`:
-    ```txt
-    requests==2.25.1
-    matplotlib==3.4.2
-    ```
-- Provide instructions for configuring the **OpenWeatherMap API key** for the weather monitoring system.
+## Application 2: Real-Time Weather Monitoring System
+### Overview
+The Real-Time Weather Monitoring System retrieves real-time weather data from the OpenWeatherMap API. The data is processed to generate daily rollups and aggregates (average, max, min temperature, etc.), and alerts are triggered based on configurable thresholds.
 
-#### **4. (Optional) Docker or Podman Setup**
-- **Docker Setup (Optional but Recommended):**
-  - Create a `Dockerfile` to containerize the application. Example `Dockerfile`:
+### Key Features
+- Real-Time Weather Data Retrieval
+- Dynamic Rollups and Aggregates 
+- Threshold Alerts 
+- Forecast Summary 
+- Error Handling
 
-    ```dockerfile
-    FROM python:3.8-slim
+### Design Choices
+- OpenWeatherMap API: Selected for reliable access to real-time and forecast weather data for multiple cities.
+- Python for Data Processing: Chosen for its ease of use in handling API responses and processing real-time data efficiently.
+- Alerts & Aggregates: Built-in functionality to handle thresholds and provide daily summaries based on real-time data.
 
-    WORKDIR /app
-
-    COPY . /app
-
-    RUN pip install --no-cache-dir -r requirements.txt
-
-    CMD ["jupyter", "notebook", "--ip=0.0.0.0", "--allow-root"]
-    ```
-
-- **Docker Build and Run Instructions:**
-  - Include commands in the README on how to build and run the Docker container.
-
----
-
-### **4. Final Check and Submission**
-- **Review the Codebase:** Ensure that the code runs without errors, and test cases pass.
-- **Push to GitHub:** Push all your changes to the GitHub repository, ensuring the README is up to date.
-- **Share the GitHub URL**: Submit the URL to your GitHub repository where the reviewer can access the code and follow the setup instructions.
-
----
-
-Let me know if you need help with any of these steps or specific clarifications on the Docker setup, README, or GitHub process!
+### How to Run
+ 1. Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/zeotap-intern-assignment.git
+    cd zeotap-intern-assignment/application2-weather-monitoring
+ 2. Install dependencies:
+    ```bash
+    pip install -r requirements.txt
+ 3. Set up your OpenWeatherMap API key:
+    API_KEY = '005a68adc5b1790d133aa2aeab176807'
+ 4. Run the applicationn:
+    ```bash
+    python weather_monitoring.py
