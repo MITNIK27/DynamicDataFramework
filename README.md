@@ -28,7 +28,7 @@ This application implements a 3-tier rule engine to evaluate user eligibility ba
 1. Clone the repository:
    ```bash
    git clone https://github.com/MITNIK27/DynamicDataFramework.git
-   cd DynamicDataFramework/Application1
+   cd DynamicDataFramework/Appl1.ipynb
 
 2. Install dependencies:
    ```bash
@@ -57,7 +57,7 @@ The Real-Time Weather Monitoring System retrieves real-time weather data from th
  1. Clone the repository:
     ```bash
     git clone https://github.com/MITNIK27/DynamicDataFramework.git
-    cd DyanamicDataFramework/Application2
+    cd DyanamicDataFramework/App2.ipynb
  2. Install dependencies:
     ```bash
     pip install -r requirements.txt
