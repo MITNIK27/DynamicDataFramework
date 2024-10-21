@@ -27,8 +27,8 @@ This application implements a 3-tier rule engine to evaluate user eligibility ba
 ### How to Run
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/zeotap-intern-assignment.git
-   cd zeotap-intern-assignment/application1-rule-engine
+   git clone https://github.com/MITNIK27/DynamicDataFramework.git
+   cd DynamicDataFramework/Application1
 
 2. Install dependencies:
    ```bash
@@ -56,8 +56,8 @@ The Real-Time Weather Monitoring System retrieves real-time weather data from th
 ### How to Run
  1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/zeotap-intern-assignment.git
-    cd zeotap-intern-assignment/application2-weather-monitoring
+    git clone https://github.com/MITNIK27/DynamicDataFramework.git
+    cd DyanamicDataFramework/Application2
  2. Install dependencies:
     ```bash
     pip install -r requirements.txt
